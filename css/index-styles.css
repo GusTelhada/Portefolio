@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: Genera;
+    font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
   }
 
@@ -221,7 +221,7 @@ nav a:hover:before{
 
 #droneimg{
   margin-left: 15%;
-  margin-top: 5vh;
+  margin-top: 6vh;
   width: 75%;
   height: auto;
   object-fit: cover;
@@ -235,7 +235,7 @@ nav a:hover:before{
   width: auto;
   height: auto;
   color: #ffffff;
-  bottom: 10%;
+  bottom: 50px;
   left: 10%;
 }
 
@@ -254,6 +254,88 @@ nav a:hover:before{
 
   #section2{
     /*margin-top: 10%;*/
-    height: 100vh;
+    height: 70vh;
+    width: 100%;
     background-color: #16151b;
+    color: #efeff1;
+    text-align: left;
   }
+
+
+  #section2 h2{
+    position: relative;
+    width: 30vw;
+    left: 50vw;
+    top: 20vh;
+    font-size: 35px;
+  }
+
+
+  #section2 h3{
+    font-family: valorantfont;
+    position: relative;
+    width: 30vw;
+    left: 50vw;
+    top: 20vh;
+    margin-top: 5px;
+    margin-top: 5px;
+    font-size: 30px;
+    animation: why_how_animation 4s linear infinite;
+  }
+
+
+  #section2 h4{
+    font-family: valorantfont;
+    position: relative;
+    text-align: center;
+    width: 480px;
+    height: 40px;
+    left: 25vw;
+    top: 28vh;
+    border: 2px solid #16151b;
+    font-size: 35px;
+    cursor: pointer;
+    animation: learn_more_about_me_animation 4s alternate infinite;
+  }
+
+  #section2 h4:hover{
+    color: #ff0000;
+    transition-duration: 1s;
+    animation-duration: 1s;
+  }
+
+  @keyframes why_how_animation{
+    0%{
+      color: #ff6b6b;
+    }
+    50%{
+      color: #ff0000;
+    }
+    100%{
+      color: #ff6b6b;
+    }
+  }
+
+  @keyframes learn_more_about_me_animation{
+    0%{
+      
+    }
+    100%{
+      border-color: #ffffff;
+      
+      font-size: 35px;
+    }
+  }
+
+/************************/
+
+  /** Section 3 **/
+
+  #section3{
+    height: 80vh;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+  }
+
