@@ -118,11 +118,7 @@ nav a:hover:before{
   }
 }
 
-@for $i from 1 through 5 {
-  nav a:nth-child(#{$i}){
-    animation:show .2s #{$i*0.1+1}s ease 1 both;
-  }
-}
+
 
 
 /************************/
@@ -132,9 +128,9 @@ nav a:hover:before{
 #black_box{
   /*margin-top: 6vh;*/
   position: absolute;
-  height: 35vh;
-  width: 43%;
-  margin-top: 2vh;
+  height: 17vw;
+  width: 40vw;
+  margin-top: 2%;
   margin-left: 10%;
   background-color: #1d1d1d;
   color: #ffffff;
@@ -143,23 +139,23 @@ nav a:hover:before{
 #black_box_welcome h1{
   padding-top: 10px;
   padding-left: 20px;
-  font-size: 10vh;
+  font-size: 5vw;
   text-align: left;
   font-family: valorantfont;
 }
 
 #black_box_2 h2{
   padding-top: 10px;
-  padding-left: 1vw;
-  font-size: 7vh;
+  padding-left: 1%;
+  font-size: 3vw;
   text-align: left;
   font-family: valorantfont;
 }
 
 #black_box_2 h3{
   padding-top: 10px;
-  padding-left: 15vw;
-  font-size: 7vh;
+  padding-left: 25%;
+  font-size: 3vw;
   text-align: left;
   font-family: valorantfont;
 }
@@ -176,20 +172,18 @@ nav a:hover:before{
 }
 
 #meet_strider{
-  background-color: #16151b;
-  width: 8%;
-  height: 10%;
+  width: 150px;
+  height: 80px;
   align-items: center;
   text-align: center;
   color: #efeff1;
   position: absolute;
-  bottom: 15vh;
-  right: 10vw;
-  
+  bottom: 10%;
+  right: 10%;
 }
 
 .image_container h2{
-  border: 2px solid aliceblue;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 2px;
   margin-top: 10%;
   margin-left: 10px;
@@ -229,10 +223,10 @@ nav a:hover:before{
 }
 
 #about_me1{
-  position: absolute;
+  position: relative;
   background-color: #000000;
   margin-bottom: 20px;
-  width: auto;
+  width: 180px;
   height: auto;
   color: #ffffff;
   bottom: 50px;
@@ -288,12 +282,12 @@ nav a:hover:before{
     font-family: valorantfont;
     position: relative;
     text-align: center;
-    width: 480px;
-    height: 40px;
+    width: 27vw;
+    height: auto;
     left: 25vw;
     top: 28vh;
     border: 2px solid #16151b;
-    font-size: 35px;
+    font-size: 2vw;
     cursor: pointer;
     animation: learn_more_about_me_animation 4s alternate infinite;
   }
@@ -301,7 +295,7 @@ nav a:hover:before{
   #section2 h4:hover{
     color: #ff0000;
     transition-duration: 1s;
-    animation-duration: 1s;
+    /*animation-duration: 1s;*/
   }
 
   @keyframes why_how_animation{
@@ -322,8 +316,6 @@ nav a:hover:before{
     }
     100%{
       border-color: #ffffff;
-      
-      font-size: 35px;
     }
   }
 
@@ -332,10 +324,22 @@ nav a:hover:before{
   /** Section 3 **/
 
   #section3{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-color: #ffffff;
     color: #000000;
     text-align: left;
   }
 
+
+
+
+
+
+  #section4{
+    height: 40vh;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+  }
