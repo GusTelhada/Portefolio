@@ -58,6 +58,10 @@ nav{
 }
 
 
+#selected-proj{
+  border-bottom: 2px solid #ff0000;
+}
+
 
 nav a{
   font-family: 'Oswald', sans-serif;
@@ -328,7 +332,7 @@ nav a:hover:before{
   /** Section 3 **/
 
   #section3{
-    height: 235vh;
+    height: 120vw;
     width: 100%;
     background-color: #ffffff;
     color: #000000;
@@ -386,7 +390,7 @@ nav a:hover:before{
   #projects_left p{
     position: relative;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     top: 27%;
     max-width: 40%;
     left: 15%;
@@ -421,7 +425,7 @@ nav a:hover:before{
   #projects_right p{
     position: relative;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     max-width: 40%;
     right: 18%;
     top: 25%;
