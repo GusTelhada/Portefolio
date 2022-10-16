@@ -328,7 +328,7 @@ nav a:hover:before{
   /** Section 3 **/
 
   #section3{
-    height: 180vh;
+    height: 235vh;
     width: 100%;
     background-color: #ffffff;
     color: #000000;
@@ -398,21 +398,20 @@ nav a:hover:before{
     text-align: right;
     margin-top: 2%;
     margin-bottom: 5%;
-    height: 20vw;
+    height: 25vw;
     /*border: 2px solid red;*/
   }
 
 
   #projects_right img{
     position: relative;   
-    height: 18vw;
-    left: 50%;
+    height: 16vw;
+    left: 52%;
     top: 2%;
   }
 
   #projects_right h2{
     position: relative;
-    margin-right: 0px;
     font-size: 3vw;
     width: 100px;
     left: 40%;
