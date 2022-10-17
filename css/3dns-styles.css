@@ -16,7 +16,7 @@
     display: flexbox;
     align-items: center;
     text-align: center;
-    background-color: #16151b;
+    background-color: #ffffff;
   }
 
   
@@ -130,36 +130,177 @@ nav a:hover:before{
 /************************/
 
 
-a, a:hover, a:focus, a:active {
-  text-decoration: none;
-  color: inherit;
+#header{
+    height: 25vw;
+    background-color: #16151b;
 }
 
 
-body h1{
-    position: relative;
-    color: #b1b1b1;
-    width: auto;
-    text-align: center;
+#header h1{
+    color: #ffffff;
+    font-size: 5vw;
     font-family: valorantfont;
-    font-size: 3vw;
+    float: left;
+    margin-left: 7vw;
+    margin-top: 5vw;
+}
+
+
+
+#header img{
+    position: relative;
+    width: 20vw;
+    height: auto;
+    top: 20%;
+    left: 1%;
+    float: left;
+}
+
+#header p{
+    text-align: right;
+    color: #ffffff;
+    font-size: 1.5vw;
+    float: right;
+    margin-right: 7vw;
+    width: 50%;
+    position: relative;
+    top: 50%;
+
+}
+
+.redc{
+    text-align: right;
+    color: #ffffff;
+    font-size: 1.5vw;
+    float: right;
+    margin-right: 7vw;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    color: #ff3a3a;
+}
+
+
+
+
+section{
+    margin-bottom: 5vw;
+}
+
+
+
+#gps{
+    background-color: #ffffff;
+}
+
+#gps h1{
     margin-top: 2vw;
-    width: 100%;
-    cursor: pointer;
+    font-family: valorantfont;
+    font-size: 4vw;
 }
 
-body p{
+#gps img{
+    width: 20%;
+}
+
+#gps p{
+    float: right;
+    text-align: left;
+    width: 30%;
+    margin-right: 20%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+}
+
+
+
+
+#imu{
+    background-color: #ffffff;
+}
+
+#imu h1{
+    margin-top: 2vw;
+    font-family: valorantfont;
+    font-size: 4vw;
+}
+
+#imu img{
+    width: 20%;
+}
+
+#imu p{
+    float: right;
+    text-align: left;
+    width: 30%;
+    margin-right: 20%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+}
+
+
+#baro{
+    background-color: #ffffff;
+}
+
+#baro h1{
+    margin-top: 2vw;
+    font-family: valorantfont;
+    font-size: 4vw;
+}
+
+#baro img{
+    width: 25%;
+}
+
+#baro p{
+    float: right;
+    text-align: left;
+    width: 30%;
+    margin-right: 20%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+}
+
+
+
+#mag{
+    background-color: #ffffff;
+}
+
+#mag h1{
+    margin-top: 2vw;
+    font-family: valorantfont;
+    font-size: 4vw;
+}
+
+#mag img{
+    width: 15%;
+}
+
+#mag p{
+    float: right;
+    text-align: left;
+    width: 30%;
+    margin-right: 20%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+#inconstruction{
+    background-color: #16151b;
     color: #efeff1;
-    display: block;
-    opacity: 0%;
+    height: 20vw;
+    margin-bottom: 0px;
 }
 
-body a:hover + .legend{
-    transition: 1s;
-    opacity: 100%;
-}
-
-body h1:hover{
-    color: red;
-    transition: 0.5s;
+#inconstruction h1{
+    padding-top: 10%;
+    font-family: valorantfont;
+    font-size: 4vw;
+    color: #ff0000;
 }

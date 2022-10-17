@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/3dns-styles.css" />
+    <title>Gustavo Portefolio</title>
+  </head>
+  <body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="#">Future</a>
+        <a href="#">About me</a>
+      </nav>
+      
+    <section id="header">
+        <h1>3DNS</h1> 
+        <h2 class="redc">3D navigation System</h2>
+        <img src="/imgs/1554305419.png" alt="">
+        <p>The aim of this project is to develop a stable and reliable 3d navigation system which would be mainly utilized by drones in precise autonomous missions. In order to find reliabe and trustworthy data we need to combine 5 diferent sensors.</p>
+    </section>
+
+    <section id="gps">
+        <h1>GPS</h1>
+        <img src="imgs/ublox_m8n-550x550.jpg" alt="">
+        <p>The GPS is used to balance the others sensors on a larger scale. The gps modules are not really precise, but it's used to calculate the initial position with an average of several readings. The GPS module is also very useful in correcting the mesurements made by other sensors in largers traveled distances. Currently I'm using Ublox m8n gps.</p>
+    </section>
+
+    <section id="imu">
+        <h1>IMU</h1>
+        <img src="imgs/MPU6050 Module.jpg" alt="">
+        <p>The accelerometer is used to calculate accelaration, and then integrated 2 times to get relative position. The Gyroscope is fused with accelerometer to get the angle and then combined with relative position to achive a very precise position data. Currently I'm using MPU6050 sensor.</p>
+    </section>
+
+    <section id="baro">
+        <h1>Barometer</h1>
+        <img src="imgs/ms5611.jfif" alt="">
+        <p>The Barometer mesures air pressure and with a simple calculation we can know the relative altitude with a precision of 10cm, therefor its data only affects the z axis. Currently I'm using MS5611 sensor.</p>
+    </section>
+
+    <section id="mag">
+        <h1>Digital Compass</h1>
+        <img src="imgs/mag.jpg" alt="">
+        <p>The Magnatometer is used to determine where the drone is looking in terms of direction. With this information is possible to better calculate a path for an autonomouse mission. Currently I'm using HMU sensor.</p>
+    </section>
+
+    <section id="inconstruction">
+        <h1>Under construction...</h1>
+    </section>
+
+
+
+</body>
+<script type="text/javascript" src="projects-app.js"></script>
+</html>

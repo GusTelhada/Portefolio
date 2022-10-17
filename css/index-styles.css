@@ -17,6 +17,10 @@
     text-align: center;
   }
 
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
   
 
   /************************/
@@ -365,8 +369,8 @@ nav a:hover:before{
   #projects_left{
     display: flex;
     text-align: left;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 7%;
     height: 20vw;
     /*border: 2px solid red;*/
   }
@@ -401,7 +405,7 @@ nav a:hover:before{
     display: flex;
     text-align: right;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     height: 25vw;
     /*border: 2px solid red;*/
   }
@@ -418,7 +422,7 @@ nav a:hover:before{
     position: relative;
     font-size: 3vw;
     width: 100px;
-    left: 40%;
+    left: 35%;
     font-family: valorantfont;
   }
 
@@ -427,7 +431,7 @@ nav a:hover:before{
     font-family: 'Oswald', sans-serif;
     font-size: 1.3vw;
     max-width: 30%;
-    right: 18%;
+    right: 10%;
     top: 25%;
   }
 
@@ -441,3 +445,20 @@ nav a:hover:before{
     color: #ffffff;
     text-align: left;
   }
+
+
+
+
+#inconstruction{
+    background-color: #16151b;
+    color: #efeff1;
+    height: 20vw;
+    margin-bottom: 0px;
+}
+
+#inconstruction h1{
+    padding-top: 10%;
+    font-family: valorantfont;
+    font-size: 4vw;
+    color: #ff0000;
+}

@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -13,10 +13,8 @@
 
   body{
     font-family: 'Oswald', sans-serif;
-    display: flexbox;
     align-items: center;
     text-align: center;
-    background-color: #16151b;
   }
 
   
@@ -46,23 +44,24 @@
 nav{
   align-self: center;
   width: 100%;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid black;
   /*position: fixed;*/
   /*top:50px;*/
   padding-top: 20px;
   padding-bottom: 10px;
   text-align:center;
-  background-color: #efeff1;
-  background-image: url("/imgs/logo2-fococlipping-standard.png");
+  background-image: url("/imgs/logo2.png");
   /*background-position: center;*/
   background-repeat: no-repeat;
   background-size: 10%;
   background-position: 10% 1vh;
 }
 
+
 #selected-proj{
-    border-bottom: 2px solid #ff0000;
+  border-bottom: 2px solid #ff0000;
 }
+
 
 nav a{
   font-family: 'Oswald', sans-serif;
@@ -125,41 +124,16 @@ nav a:hover:before{
 }
 
 
-
-
-/************************/
-
-
-a, a:hover, a:focus, a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-
-body h1{
-    position: relative;
-    color: #b1b1b1;
-    width: auto;
-    text-align: center;
-    font-family: valorantfont;
-    font-size: 3vw;
-    margin-top: 2vw;
-    width: 100%;
-    cursor: pointer;
-}
-
-body p{
+#inconstruction{
+    background-color: #16151b;
     color: #efeff1;
-    display: block;
-    opacity: 0%;
+    height: 100vh;
+    margin-bottom: 0px;
 }
 
-body a:hover + .legend{
-    transition: 1s;
-    opacity: 100%;
-}
-
-body h1:hover{
-    color: red;
-    transition: 0.5s;
+#inconstruction h1{
+    padding-top: 20%;
+    font-family: valorantfont;
+    font-size: 4vw;
+    color: #ff3a3a;
 }
